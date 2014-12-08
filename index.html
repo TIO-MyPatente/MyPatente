@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
-    <title>Infusion WP Theme</title>
+    <title>My Patente</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
@@ -25,15 +25,15 @@
 		    <div class="logo col-md-3"><h2 class="logo-text">My Patente</h2></div>
 		    <nav class="clearfix">
             <ul class="clearfix">
-                <li><a href="#" class="active">Buscador</a></li>
-                <li><a href="#">Equipo</a></li>
+                <li><a href="#patente" class="active">Buscador</a></li>
+                <li><a href="#equipo">Equipo</a></li>
                 <li><a href="#">our business</a></li>
                 <li><a href="#">how we help</a></li>
                 <li><a href="#">take the tour</a></li>
                 <li><a href="#" class="last">contact</a></li>
             </ul>
         </nav>
-        <div class="pullcontainer">
+        <div class="pullcontainer" id="patente">
         <a href="#" id="pull"><i class="fa fa-bars fa-2x"></i></a>
         </div>     
 		</header>
@@ -50,12 +50,11 @@
 				<br>
 				<!-- ****************** FORMULARIO BUSCADOR ********************* -->
 				<form action="busqueda.php" method="post">
-				  <div class="col-md-6 col-md-offset-3 ">
 					<div class="form-group">
-					  <input class="form-control" type="text" name="nomb" placeholder="Introduce un término">
+					  <input class="form-control" type="text" name="buscador" placeholder="Introduce un término">
 					</div>
 					<input class="btn btn-lg btn-primary" name="Buscar" type="submit" id="Buscar" value="Buscar">
-				  </div>
+
 				</form>
               </div>
             </div>
@@ -65,7 +64,7 @@
     </ul>
 </div>
 	
-    <div class="container"> 
+    <div class="container" id="equipo"> 
     <div class="arrow"></div>
     </div>
 	<div class="h2-wrap">
@@ -86,8 +85,7 @@
             <img src="img/edu.png" alt="Carousel Img">
           </div>
           <div class="carousel-content">
-            <h3>Eduardo Acuña Ledesma</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est.</p>
+            <h3>Eduardo Acuña Ledesma</h3>           
           </div>
         <div class="overlay"></div>
         </div>
@@ -100,7 +98,6 @@
           </div>
           <div class="carousel-content">
             <h3>Sergio Díaz González</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est.</p>
           </div>
           <div class="overlay"></div>
         </div>
@@ -113,7 +110,6 @@
           </div>
           <div class="carousel-content">
             <h3>Jhoanmary Pérez Fariña</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est.</p>
           </div>
           <div class="overlay"></div>
         </div>
@@ -126,7 +122,6 @@
           </div>
           <div class="carousel-content">
             <h3>Rushil Lakhani Lakhani</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est.</p>
           </div>
           <div class="overlay"></div>
         </div>
@@ -139,7 +134,6 @@
           </div>          
           <div class="carousel-content">
             <h3>Santiago Sainz Fernández</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est.</p>
           </div>
           <div class="overlay"></div>
         </div>
@@ -152,7 +146,6 @@
           </div>
           <div class="carousel-content">
             <h3>Jonathan Barrera Delgado</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est.</p>
           </div>
           <div class="overlay"></div>
         </div>
@@ -258,9 +251,9 @@
           <div class="col-md-12">
           <div class="col-md-10 col-md-offset-1">
             <div class="quote-slideshow">
-              <figure class="show"><h2>Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent vitae lorem et elit tincidunt accumsan suscipit eu libero. </h2>
+              <figure class="show"><h2>"Las patentes de software son peligrosas para los desarrolladores de software porque imponen monopolios sobre ideas de software." </h2>
               <figcaption>
-                Nam mi enim, auctor non ultricies.
+                Richard Stallman
               </figcaption>
               </figure>
               <figure><h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa.</h2>
@@ -277,30 +270,34 @@
       </div>
     </div>
     <div class="shadow"></div>
+	
+	<!-- FOOTER -->
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-2">
-            <h2>INFUSION</h2>
+          <div class="col-md-4">            
           </div>
-          <div class="col-md-5">
-            <p>Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent vitae lorem et elit tincidunt accumsan suscipit eu libero. Maecenas diam est, venenatis vitae dui in, vestibulum mollis arcu. Donec eu nibh tincidunt, dapibus sem eu, aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq</p>
+          <div class="col-md-4">
+            <ul class="icons">
+					<li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
+					<li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
+					<li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>
+			</ul>
+				<br>
+			<div class="copyright" align="center">
+				&copy; TIO - MY PATENTE 2014/2015 - COPYRIGHT &copy;
+			</div>
           </div>
-          <div class="col-md-3">
-            <p>aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq</p>
+          <div class="col-md-4">         
           </div>
-          <div class="col-md-2">
-            <ul class="footer-links">
-              <li><a href="#">List One</a></li>
-              <li><a href="#">Page Two</a></li>
-              <li><a href="#">Design</a></li>
-              <li><a href="#">Work</a></li>
-              <li><a href="#">Contact Me</a></li>
-            </ul>
-          </div>
+
         </div>
       </div>  
     </footer>
+	
+	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
