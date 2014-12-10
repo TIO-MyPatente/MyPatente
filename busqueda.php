@@ -54,7 +54,7 @@
           <div class="col-md-6 col-md-offset-3 text-center">
             <div class="panel panel-primary">
               <div class="panel-heading">
-                <input name="nomb" type="text" value="<?php echo $a; ?>" />
+                <input name="buscador" type="text" value="<?php echo $a; ?>" />
                 <input name="Buscar" type="submit" id="Buscar" value="Buscar" />
                 <div id="searchForm" style="display:none;"></div>
                   <select id="restrict" onchange="formSubmit(searchform);return false;"></select>

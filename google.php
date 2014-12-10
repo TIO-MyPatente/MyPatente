@@ -1,4 +1,4 @@
-<?php $a=$_POST[nomb]; ?>
+<?php $a=$_POST["buscador"]; ?>
 <html>
   <head>
     <script src="http://www.google.com/jsapi" type="text/javascript"></script>
