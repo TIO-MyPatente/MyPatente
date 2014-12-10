@@ -1,4 +1,6 @@
 <?php require_once("includes/header.php"); ?>
+</head>
+  <body>
 		<header class="clearfix">
 		    <a href="./"><div class="logo col-md-3"><h2 class="logo-text">My Patente</h2></div></a>
 		    <nav class="clearfix">
