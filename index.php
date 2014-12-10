@@ -29,7 +29,7 @@
 				<!-- ****************** FORMULARIO BUSCADOR ********************* -->
 				<form action="busqueda.php" method="post">
 					<div class="form-group">
-					  <input class="form-control" type="text" name="buscador" placeholder="Introduce un término">
+					  <input class="form-control" type="text" name="buscador" placeholder="Introduce un término" required autofocus>
 					</div>
 					<input class="btn btn-lg btn-primary" name="Buscar" type="submit" id="Buscar" value="Buscar">
 
