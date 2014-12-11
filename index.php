@@ -17,7 +17,7 @@
         <a href="#" id="pull"><i class="fa fa-bars fa-2x"></i></a>
         </div>     
 		</header>
-    <div class="banner">
+    <div class="banner bindex">
     <ul>
         <li style="background-image: url('img/planos1.jpg');">
           <div class="container">

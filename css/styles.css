@@ -610,6 +610,17 @@ nav ul li a.active {
     margin-top: 240px;
 	border-radius:10px;
 }
+
+.hero-title2 {
+    background-color: #63c6ae;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 30px 20px;
+    margin-top: 120px;
+	border-radius:10px;
+}
+
 .hero-content {
     background-color: #242a2c;
     margin: 5px 30px 35px;
@@ -958,9 +969,18 @@ footer h2 {
 }
 .banner ul li { 
     float: left;
-    height: 776px;
+    /*height: 776px;*/
     display: block;
+}  
+
+.bindex ul li {
+	height:776px;
 }
+
+.bbusqueda  ul li {
+	height: 400px;
+}
+
 .banner .dots {
     position: absolute;
     left: 0;

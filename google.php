@@ -8,7 +8,8 @@
         background-color: white;
         color: black;
         font-family: Arial, sans-serif;
-        font-size: small;
+        font-size: small;		
+		border-color:white;
       }
       
       .info {
@@ -18,13 +19,15 @@
       #content {
         width: 425px;
       }
+	  
+
     </style>
     <script src="http://ajax.googleapis.com/ajax/libs/prototype/1.6.0.2/prototype.js"></script>
     <title>Buscador de Patentes</title>
   </head>
   
   <body>
-    <div id="content">
+    <div id="content"> 
       
       <br/><br/>
       <div id="results"></div>
@@ -180,5 +183,8 @@
 
     google.setOnLoadCallback(load);
     </script>
+	<br>
+	<br>
+	
   </body>
 </html>

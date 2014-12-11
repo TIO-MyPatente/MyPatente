@@ -26,12 +26,8 @@
 		<a href="./"><div class="logo col-md-3"><h2 class="logo-text">My Patente</h2></div></a>
 		<nav class="clearfix">
 			<ul class="clearfix">
-				<li><a href="./">Buscador</a></li>
-				<li><a href="#equipo">Equipo</a></li>
-				<li><a href="./busqueda.php" class="active">Búsquedas</a></li>
-				<li><a href="#">how we help</a></li>
-				<li><a href="#">take the tour</a></li>
-				<li><a href="#" class="last">contact</a></li>
+				<li><a href="./index.php">Inicio</a></li>
+				<li><a href="#contacto" class="last">contact</a></li>
 			</ul>
         </nav>
         <div class="pullcontainer" id="patente">
@@ -39,13 +35,13 @@
         </div>     
 	</header>		
 <!-- ************************************************** -->
-	<div class="banner">
+	<div class="banner bbusqueda">
 		<ul>
 			<li style="background-image: url('img/planos1.jpg');">
 			  <div class="container">
 				<div class="row">
 				  <div class="col-md-6 col-md-offset-3">
-					<div class="hero-title">
+					<div class="hero-title2">
 					  Resultados de la búsqueda
 					</div>
 					<br>
@@ -155,7 +151,9 @@
 	
 	
 <!-- ************************************************** -->
-  <?php require_once("includes/footer.php"); ?>
+  <div id="contacto">
+	<?php require_once("includes/footer.php"); ?>
+  </div>
 
 </body>
 </html>
