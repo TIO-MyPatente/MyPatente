@@ -8,9 +8,9 @@
                 <li><a href="./" class="active">Buscador</a></li>
                 <li><a href="#equipo">Equipo</a></li>
                 <li><a href="./busqueda.php">Búsquedas</a></li>
-                <li><a href="#">how we help</a></li>
-                <li><a href="#">take the tour</a></li>
-                <li><a href="#" class="last">contact</a></li>
+                <li><a href="#patentes">Patentes </a> </li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#" class="last">Acerca de</a></li>
             </ul>
         </nav>
         <div class="pullcontainer" id="patente">
@@ -31,7 +31,7 @@
 				<!-- ****************** FORMULARIO BUSCADOR ********************* -->
 				<form action="busqueda.php" method="post">
 					<div class="form-group">
-					  <input class="form-control" type="text" name="buscador" placeholder="Introduce un término">
+					  <input class="form-control" type="text" name="buscador" placeholder="Introduce un término" required autofocus>
 					</div>
 					<input class="btn btn-lg btn-primary" name="Buscar" type="submit" id="Buscar" value="Buscar">
 
@@ -162,10 +162,10 @@
     </div>
     </div>
     <div class="h2-wrap">
-      <div class="container">
+      <div class="container" id = "patentes">
         <div class="row">
         <div class="col-md-12">
-          <h2 class="standard-block">LATEST ARTICLES</h2>
+          <h2 class="standard-block">PATENTES</h2>
           </div>
         </div>
       </div>
