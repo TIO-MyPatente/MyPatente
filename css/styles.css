@@ -989,6 +989,10 @@ footer h2 {
 
 /*------------------------------- AÑADIDO POR GRUPO TIO 2014/2015 ------------------------------- */
 
+.derecha{
+	margin-left:200px;
+}
+
 .form-group {
 	width:550px;
 }

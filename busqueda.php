@@ -46,7 +46,7 @@
 				<div class="row">
 				  <div class="col-md-6 col-md-offset-3">
 					<div class="hero-title">
-					  Resultados de la búsqueda:
+					  Resultados de la búsqueda
 					</div>
 					<br>
 					<br>
@@ -62,7 +62,6 @@
       <div class="container vert-text">
 		<br>
         <h1>Buscador de Patentes</h1>
-        <a name="Volver" type="submit" href="index.html" value="Volver" class="btn btn-lg btn-primary">Volver</a>
         <br>
         <br>
         <form action="busqueda.php" method="post">
@@ -77,6 +76,7 @@
 						<div id="searchForm" style="display:none;"></div>
 						<select id="restrict" onchange="formSubmit(searchform);return false;"></select>
 						<select id="sort" onchange="formSubmit(searchform);return false;"></select>
+						<a name="Volver" type="submit" href="index.php" value="Volver" class="btn btn-lg btn-primary derecha">Volver</a>
 						</td>
 					</div>
 					<div class="panel-body"> 
