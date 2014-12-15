@@ -68,10 +68,11 @@
 				<div class="panel panel-primary">
 					<div class="panel-heading"> <!-- OJO ESTÁ EN AZUL, CAMBIARLOOOOOO-->
 						<input name="buscador" type="text" value="<?php  $a; ?>" />
-						<input name="Buscar" type="submit" id="Buscar" value="Buscar" />
+						
 						<div id="searchForm" style="display:none;"></div>
 						<select id="restrict" onchange="formSubmit(searchform);return false;"></select>
 						<select id="sort" onchange="formSubmit(searchform);return false;"></select>
+						<input name="Buscar" type="submit" id="Buscar"  class="btn btn-lg btn-primary " value="Buscar" />
 						<a name="Volver" type="submit" href="index.php" value="Volver" class="btn btn-lg btn-primary derecha">Volver</a>
 						</td>
 					</div>
