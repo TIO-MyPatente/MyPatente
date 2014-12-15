@@ -7,10 +7,9 @@
             <ul class="clearfix">
                 <li><a href="./" class="active">Buscador</a></li>
                 <li><a href="#equipo">Equipo</a></li>
-                <li><a href="./busqueda.php">Búsquedas</a></li>
                 <li><a href="#patentes">Patentes </a> </li>
+				<li><a href="#info" class="last">Acerca de</a></li>
                 <li><a href="#contacto">Contacto</a></li>
-                <li><a href="#" class="last">Acerca de</a></li>
             </ul>
         </nav>
         <div class="pullcontainer" id="patente">
@@ -143,7 +142,7 @@
         </div>
       </div>
     </div>
-    <div class="text-inter">
+    <div class="text-inter" id="info">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -249,5 +248,5 @@
         </div>
       </div>
     </div>
-    <div class="shadow"></div>
+    <div class="shadow" id= "contacto"></div>
 	<?php require_once("includes/footer.php"); ?>

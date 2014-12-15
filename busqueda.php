@@ -27,7 +27,7 @@
 		<nav class="clearfix">
 			<ul class="clearfix">
 				<li><a href="./index.php">Inicio</a></li>
-				<li><a href="#contacto" class="last">contact</a></li>
+				<li><a href="#contacto" class="last">Contacto</a></li>
 			</ul>
         </nav>
         <div class="pullcontainer" id="patente">
