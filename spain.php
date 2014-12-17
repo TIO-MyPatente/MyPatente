@@ -102,40 +102,6 @@
 								$f2=$url2.$a;
 								$f3=$url3.$a.$url3end;
 
-								//url de la pagina para arreglar los enlaces relativos
-								$oldSetting = libxml_use_internal_errors( true );
-								libxml_clear_errors();
-								$html = new DOMDocument();
-								$html->loadHtmlFile("tmp.php");
-								$xpath = new DOMXPath( $html );
-								//extraemos todos los enlaces para poder corregirlos
-								$links = $xpath->query( '//a[starts-with(@href,"/es/signos_distintivos/detalle.html?")] | //td ');
-								$tabladef='<table width="700" border="1"> <tr> <td>';
-								$tablacont='</td> </tr> <tr> <td>';
-								$tablaend='</td> </tr> </table>';
-								$estilo='<style type="text/css"> body,td,th { font-family: "Trebuchet MS", Helvetica, sans-serif; } </style>';
-								//----Parte de patentes europeas----
-
-								$urleur = file_get_contents($f3);
-								//echo $urleur;
-								//extraemos la tabla donde se encuentra el contenido que nos interesa del html obtenido
-								$urleur= cortar('<table class="application">', '</table>', $urleur);
-								//eliminamos los checkbox innecesarios
-								$limpiar_checkbox='<input type="checkbox"[^>]*>';
-								$urleur = eregi_replace($limpiar_checkbox,'',$urleur);
-								//arreglamos las url relativas
-								$url_repair='<a  href="/publicationDetails/[^>]*biblio';
-								$urleur = eregi_replace($url_repair,'<a  href="http://worldwide.espacenet.com/publicationDetails/biblio',$urleur);
-								//añadimos el estilo de la fuente
-								$estilo='<style type="text/css"> body,td,th { font-family: "Trebuchet MS", Helvetica, sans-serif; } </style>';
-								//Escribimos todos los resultados a fichero y con su estilo, cabecera con la codificacion
-
-								echo $estilo;
-								echo $tabladef;
-								echo $urleur;
-								echo $tablacont;
-								echo $tablaend;
-
 
 								$urleur = file_get_contents($f2);
 								//echo $urleur;
@@ -143,8 +109,6 @@
 								#$urleur= cortar('<div class="resBusquedaSignos">', '</div>', $urleur);
 
 								$resultados = cortar('<p class="resultados">', "</p>", $urleur);
-								echo "Este es el resultado: " + $resultados;
-								echo "hola";
 								$urleur = cortar('<ul class="resBusquedas">', '</ul>', $urleur); 
 
 								

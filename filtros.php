@@ -4,7 +4,8 @@
 	<?php
 		if ($_POST['tipo'] == '1') {include "sologoogle.php";}
 		if ($_POST['tipo'] == '2') {include "espacenet.php";}
-		else if ($_POST['tipo'] == '3') {include "busqueda.php";}
+		if ($_POST['tipo'] == '3') {include "spain.php";}
+		else if ($_POST['tipo'] == '4') {include "busqueda.php";}
 	?>
 </body>
 </html>
