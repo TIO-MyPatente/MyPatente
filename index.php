@@ -33,7 +33,23 @@
 					  <input class="form-control" type="text" name="buscador" placeholder="Introduce un término" required autofocus>
 					</div>
 					<input class="btn btn-lg btn-primary" name="Buscar" type="submit" id="Buscar" value="Buscar">
-
+          <br>
+          <br>
+          <!--
+            <button class="btn btn-lg btn-primary" type="submit">Google</button>
+            <button class="btn btn-lg btn-primary" type="submit">Espacenet</button>
+            <button class="btn btn-lg btn-primary" type="submit">Todos</button>
+            <br>
+            <input type = radio name = var1  value = 1 >Google<br>
+            <input type = radio name = var2 value = 2 checked>Espacenet <br>
+            <input type = radio name = var3 value = 3 >Todos <br> 
+            <select name="buscar" onchange="salta(this.form)">
+            -->
+              <option selected> Tipo
+              <option value=1>Google
+              <option value=2>Espacenet
+              <option value=3>Todos
+            </select>
 				</form>
               </div>
             </div>
