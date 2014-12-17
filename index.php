@@ -14,7 +14,7 @@
         </nav>
         <div class="pullcontainer" id="patente">
         <a href="#" id="pull"><i class="fa fa-bars fa-2x"></i></a>
-        </div>     
+        </div>
 		</header>
     <div class="banner bindex">
     <ul>
@@ -39,11 +39,11 @@
             </div>
           </div>
         </li>
-        
+
     </ul>
 </div>
-	
-    <div class="container" id="equipo"> 
+
+    <div class="container" id="equipo">
     <div class="arrow"></div>
     </div>
 	<div class="h2-wrap">
@@ -64,7 +64,7 @@
             <img src="img/edu.png" alt="Carousel Img">
           </div>
           <div class="carousel-content">
-            <h3>Eduardo Acuña Ledesma</h3>           
+            <h3>Eduardo Acuña Ledesma</h3>
           </div>
         <div class="overlay"></div>
         </div>
@@ -93,7 +93,7 @@
           <div class="overlay"></div>
         </div>
         </div>
-		
+
 		<div class="col-md-2">
         <div class="ca-hover">
           <div class="carousel-img">
@@ -105,12 +105,12 @@
           <div class="overlay"></div>
         </div>
         </div>
-		
+
 		<div class="col-md-2">
         <div class="ca-hover">
           <div class="carousel-img">
             <img src="img/santi.png" alt="Carousel Img">
-          </div>          
+          </div>
           <div class="carousel-content">
             <h3>Santiago Sainz Fernández</h3>
           </div>
@@ -146,17 +146,16 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed.</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. Nullam condimentum mauris et rhoncus sagittis. Sed eu metus in diam tincidunt egestas non at odio. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+          <h3>Un equipo comprometido con su trabajo.</h3>
+          <p>El equipo que ha creado esta aplicación busca brindar a todas las personas la información y flexibilidad necesarias para moverser facilmente en el mundo de las patentes. En nuestra sociedad actual la busqueda de información rápida y eficaz es el mejor instrumento para el triunfo, para ello nuestro equipo trabaja para proporcionar a los usuarios la mejor información sobre patentes de la mejor forma posible.</p>
           <div class="divider"></div>
-          <a href="#" class="button solid-color">BUTTON</a>
-          <a href="#" class="button extra-color">BUTTON</a>
+          <a href="#equipo" class="button solid-color">Conoce al Equipo</a>
         </div>
         <div class="col-md-6">
-          <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed.</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. Nullam condimentum mauris et rhoncus sagittis. Sed eu metus in diam tincidunt egestas non at odio.</p>
-          <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean vitae lectus erat. Duis consequat laoreet velit. Mauris convallis, sapien sit amet scelerisque accumsan, felis urna aliquet nunc, viverra mollis odio tellus a nisl. Nulla lobortis lectus non rutrum viverra. Sed et molestie libero. Sed ut ultrices dui.</p>
-        </div>  
+          <h3>¿Que es una patente y en que te puede ayudar MyPatente?</h3>
+          <p>La patente es un derecho, otorgado por un gobierno al titular de la patente, este derecho permite al titular impedir que terceros hagan uso de esa tecnología patentada. El titular es el único que puede hacer uso de la tecnología que reivindica en la patente o autorizar a terceros a implementarla bajo las condiciones que el titular fijo.</p>
+          <p>La definición anterior deja en claro la importancia de una aplicación web como la que ofrecemos, a lo largo de los dias se mueven un sin fin de pantetes a nivel mundial, por ello y para facilitar la obtención de datos sobre patentes existe esta aplicación. Con nosotros podras tener conocimiento de las patentes existentes segun paises, algo que puede ayudarte a plantear tu estrategia de negocio para con un tecnología o que puede beneficiarte gracias a nuestro programa premium para empresas que desean que sus patentes estén presentes ante el resto de usuarios. Si lo que necesitas es información sobre patentes, en nuestra aplicación web encontraras la solución que buscas. Bienvenido y disfruta navegando por ella.</p>
+        </div>
       </div>
     </div>
     </div>
