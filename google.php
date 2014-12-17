@@ -8,8 +8,7 @@
         background-color: white;
         color: black;
         font-family: Arial, sans-serif;
-        font-size: small;		
-		border-color:white;
+        font-size: small;
       }
       
       .info {
@@ -19,15 +18,13 @@
       #content {
         width: 425px;
       }
-	  
-
     </style>
     <script src="http://ajax.googleapis.com/ajax/libs/prototype/1.6.0.2/prototype.js"></script>
     <title>Buscador de Patentes</title>
   </head>
   
   <body>
-    <div id="content"> 
+    <div id="content">
       
       <br/><br/>
       <div id="results"></div>
@@ -98,10 +95,13 @@
         var thumbLink = document.createElement('a');
         var thumb = document.createElement('img');
         thumb.style.border = '1px solid #7777CC';
-        thumbLink.href = searcher.results[i].unescapedUrl;
+        //thumbLink.href = searcher.results[i].unescapedUrl;
+        thumbLink.href = "/patent-search/v1/"+PatentSearch.results[i].unescapedUrl;
         thumb.src = searcher.results[i].tbUrl;
         thumb.width = '75';
         thumb.height = '100';
+        //alert(searcher.results[i].tbUrl);
+        //console.log(searcher.results[i].tbUrl);
         thumbLink.className = 'lbOn';
         thumbLink.appendChild(thumb);
         td1.appendChild(thumbLink);
@@ -183,8 +183,5 @@
 
     google.setOnLoadCallback(load);
     </script>
-	<br>
-	<br>
-	
   </body>
 </html>
