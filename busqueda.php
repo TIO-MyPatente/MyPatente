@@ -80,7 +80,7 @@
 					
 						<!-- ************************** /Codigo PHP ************************** -->
 							<?php 
-							  include('google2.php');
+							  include('google.php');
 
 							  error_reporting(E_ALL ^ E_DEPRECATED);
 							//funcion para extraer codigo html entre 2 límites
