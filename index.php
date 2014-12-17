@@ -42,9 +42,9 @@
             <br>
             <input type = radio name = var1  value = 1 >Google<br>
             <input type = radio name = var2 value = 2 checked>Espacenet <br>
-            <input type = radio name = var3 value = 3 >Todos <br> 
+            <input type = radio name = var3 value = 3 >Todos <br> -->
             <select name="buscar" onchange="salta(this.form)">
-            -->
+            
               <option selected> Tipo
               <option value=1>Google
               <option value=2>Espacenet
