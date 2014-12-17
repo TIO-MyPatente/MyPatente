@@ -80,7 +80,7 @@
 					
 						<!-- ************************** /Codigo PHP ************************** -->
 							<?php 
-							  include('google.php');
+							  include('google2.php');
 
 							  error_reporting(E_ALL ^ E_DEPRECATED);
 							//funcion para extraer codigo html entre 2 límites
@@ -92,7 +92,7 @@
 							  }
 
 
-							  $url1="http://worldwide.espacenet.com/searchResults?compact=false&AB=";
+							  	$url1="http://worldwide.espacenet.com/searchResults?compact=false&AB=";
 								$url2="http://www.oepm.es/es/signos_distintivos/resultados.html?denominacion=Contenga&texto=";
 								$url3="http://ep.espacenet.com/searchResults?compact=false&AB=";
 								$url3end="&ST=quick&locale=en_EP&submitted=true&DB=ep.espacenet.com";
@@ -135,6 +135,8 @@
 								echo $urleur;
 								echo $tablacont;
 								echo $tablaend;
+
+
 							?>
 
 
